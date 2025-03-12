@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
     public Rigidbody2D RB;  
     public int Speed = 3;
 	public int Health = 3;
+ 	public AudioClip SoundEffect; 
+    public AudioSource AS;
     void Start()
  	
     {
@@ -19,11 +21,11 @@ public class Player : MonoBehaviour
         {
              SceneManager.LoadScene("Win"); 
         }
- //if (Collision2D.gameObject.tag == "Coin")
+ if (Collision2D.gameObject.tag == "Coin")
 
-        //{
-             //Debug.Log("Touching coin!"); 
-        //}
+        {
+              AS.PlayOneShot(SoundEffect);
+        }
 
     }
 

@@ -8,7 +8,9 @@ public class Coin : MonoBehaviour
         if (Collision2D.gameObject.tag == "Player")
 
         {
+           
             Destroy(gameObject);
+           
 
         }
     }
