@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - WinCon
+  - Coin
   layers:
   - Default
   - TransparentFX

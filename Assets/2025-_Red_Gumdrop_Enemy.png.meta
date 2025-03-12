@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2025-_Red_Gumdrop_Enemy_0: 531776078654284803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

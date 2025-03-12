@@ -19,11 +19,11 @@ public class Player : MonoBehaviour
         {
              SceneManager.LoadScene("Win"); 
         }
- if (Collision2D.gameObject.tag == "Coin")
+ //if (Collision2D.gameObject.tag == "Coin")
 
-        {
-             Debug.Log("Touching coin!"); 
-        }
+        //{
+             //Debug.Log("Touching coin!"); 
+        //}
 
     }
 
