@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 
         if (Collision2D.gameObject.tag == "WinCon")
 
-        {
+        {	 	
              SceneManager.LoadScene("Win"); 
         }
  if (Collision2D.gameObject.tag == "Coin")
